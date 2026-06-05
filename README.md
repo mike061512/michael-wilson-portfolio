@@ -24,12 +24,12 @@ These three projects are most representative of observability, service analysis,
 
 | Project | Core Skills | Key Result |
 |---|---|---|
-| [Project Genesis: New Client Environment Provisioning](projects/04-project-genesis-environment-provisioning.md) | Process recovery, pilot execution, runbook design, disconnected architecture | |
+| [Project Genesis: New Client Environment Provisioning](projects/04-project-genesis-environment-provisioning.md) | Process recovery, pilot execution, runbook design, disconnected architecture | New domain creation possible within 2 business vs. 10 business days |
 | [CAPA Developer Requirements Artifact](projects/05-capa-developer-requirements-artifact.md) | Post-incident systemic analysis, requirements engineering, cross-functional advocacy | |
 | [RefRep Python Automation: Word Macro Uplift](projects/06-refrep-python-automation.md) | Python CLI, Oracle DB, fail-fast validation, PyTest, AI-assisted development | ~1,194 hrs/year saved; 92/92 tests passing |
-| [OSD VDI Pilot Assessment](projects/07-osd-vdi-pilot-assessment.md) | Structured evaluation, functional requirements definition, impact documentation | |
+| [OSD VDI Pilot Assessment](projects/07-osd-vdi-pilot-assessment.md) | Structured evaluation, functional requirements definition, impact documentation | Concessions secured: bi-directional copy/paste, extended session timeout, OneDrive/SharePoint access restored |
 | [AI Agent & MCP Workflow Enablement](projects/08-ai-agent-mcp-workflow-enablement.md) | Cline, Codex, MCP configuration, cross-agent coordination, Jira/Confluence integration | |
-| [Personal Finance Intelligence Platform](projects/09-personal-finance-intelligence-platform.md) | Python ETL, Power BI, DAX, idempotent pipeline, PyInstaller, anomaly detection | |
+| [Personal Finance Intelligence Platform](projects/09-personal-finance-intelligence-platform.md) | Python ETL, Power BI, DAX, idempotent pipeline, PyInstaller, anomaly detection | $440 recovered via recurring charge detection; unused subscription cancelled May 2026 |
 | [Project STC: Engineering Continuity Framework](projects/10-project-stc-engineering-continuity-framework.md) | AI workflow architecture, knowledge management, framework design, engineering effectiveness | |
 | [Structured Cloud & SRE Upskilling](projects/11-structured-cloud-sre-upskilling.md) | AWS, Terraform, Kubernetes, Observability (active learning — honestly framed) | |
 | [Librarium: Prompt & Skill Library for AI-Assisted Engineering](projects/12-librarium-prompt-skill-library.md) | Prompt engineering, AI workflow governance, knowledge management, Git-based contribution standards | |
