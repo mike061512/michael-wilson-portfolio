@@ -2,7 +2,7 @@
 
 A resume/interview-ready pull of quantified results and highlights from across [projects/](projects/). Grouped by theme rather than chronology so bullets can be dropped straight into a resume, cover letter, or LinkedIn summary. Every line here is traceable to a full write-up — no numbers beyond what's documented there.
 
-Last refreshed: July 2026 (Project STC entry updated for public open-source release).
+Last refreshed: July 2026.
 
 ---
 
@@ -23,9 +23,9 @@ Last refreshed: July 2026 (Project STC entry updated for public open-source rele
 - Authored a leadership-facing CAPA artifact with **17 specific cross-team requirements**, objection responses, and a KPI/evidence model, reframing a production incident from an isolated failure into a systemic upstream process gap. [→ CAPA Requirements Artifact](projects/05-capa-developer-requirements-artifact.md)
 - Ran a structured VDI pilot evaluation against real SRE usage patterns; prevented adoption of a replacement platform that lacked functional parity and secured concrete concessions (bi-directional copy/paste, extended session timeout, restored OneDrive/SharePoint access). [→ OSD VDI Pilot Assessment](projects/07-osd-vdi-pilot-assessment.md)
 
-## AI-Assisted Engineering & Open Source
+## AI-Assisted Engineering & Workflow Tooling
 
-- Designed and shipped **Project STC**, an AI-assisted engineering continuity framework, from internal concept to a **public, MIT-licensed GitHub release** (v1.0.0 → v1.1.0) in ~5 weeks — complete with starters, working examples, a validator script, and contribution/security policy. Merged the project's **first external community pull request**. [→ Project STC](projects/10-project-stc-engineering-continuity-framework.md) · [Repo](https://github.com/mike061512/project-stc)
+- Designed and matured **Project STC**, an AI-assisted engineering continuity framework — Memory Bank, project context layer, AI instruction layer, and anti-drift mechanisms — from concept into a documented, practically adoptable structure with starter templates, filled-in reference examples, and validation tooling. [→ Project STC](projects/10-project-stc-engineering-continuity-framework.md)
 - Co-designed a cross-agent "baton-passing" coordination model enabling Cline and Codex to share durable context across sessions without duplication; applied it to live delivery work via MCP-connected Jira/Confluence integration. [→ AI Agent & MCP Workflow Enablement](projects/08-ai-agent-mcp-workflow-enablement.md)
 - Designed and launched **Librarium**, a Git-based, PR-reviewed library of reusable AI prompts and workflow skills spanning 9 technology domains (Oracle, MySQL, OAC, Vertica, Linux, and more). [→ Librarium](projects/12-librarium-prompt-skill-library.md)
 
@@ -40,7 +40,7 @@ Last refreshed: July 2026 (Project STC entry updated for public open-source rele
 **Languages & Data:** Python, SQL/PL-SQL, Bash/KSH, PowerShell, Git
 **BI & Analytics:** Power BI, Oracle Analytics Cloud, Splunk, Tableau, dimensional modeling, DAX, KPI/OKR design
 **Platforms & Tools:** Oracle RDBMS, Oracle GoldenGate, Jira/Confluence, CI/CD, PyTest, Docker/Kubernetes (learning), Agile/Kanban
-**AI & Automation:** Oracle Code Assist, Cline, Codex, Claude Code, MCP; prompt engineering, AI pair-programming, cross-agent workflow design, open-source framework delivery
+**AI & Automation:** Oracle Code Assist, Cline, Codex, Claude Code, MCP; prompt engineering, AI pair-programming, cross-agent workflow design, framework design
 
 ---
 
