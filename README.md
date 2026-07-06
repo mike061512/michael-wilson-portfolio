@@ -6,6 +6,8 @@
 
 Operations and analytics professional with 10+ years across SRE, platform operations, software engineering, and data analysis. I build service observability frameworks from scratch — quantifying failure patterns, defining SLAs, designing dashboards, and translating operational data into stakeholder-ready insight.
 
+See [ACHIEVEMENTS.md](ACHIEVEMENTS.md) for a resume-ready pull of quantified results across all projects.
+
 ---
 
 ## Featured Projects
@@ -30,7 +32,7 @@ These three projects are most representative of observability, service analysis,
 | [OSD VDI Pilot Assessment](projects/07-osd-vdi-pilot-assessment.md) | Structured evaluation, functional requirements definition, impact documentation | Concessions secured: bi-directional copy/paste, extended session timeout, OneDrive/SharePoint access restored |
 | [AI Agent & MCP Workflow Enablement](projects/08-ai-agent-mcp-workflow-enablement.md) | Cline, Codex, MCP configuration, cross-agent coordination, Jira/Confluence integration | |
 | [Personal Finance Intelligence Platform](projects/09-personal-finance-intelligence-platform.md) | Python ETL, Power BI, DAX, idempotent pipeline, PyInstaller, anomaly detection | $440 recovered via recurring charge detection; unused subscription cancelled May 2026 |
-| [Project STC: Engineering Continuity Framework](projects/10-project-stc-engineering-continuity-framework.md) | AI workflow architecture, knowledge management, framework design, engineering effectiveness | |
+| [Project STC: Engineering Continuity Framework](projects/10-project-stc-engineering-continuity-framework.md) | AI workflow architecture, knowledge management, framework design, open-source delivery | Public MIT-licensed release (v1.1.0) on GitHub; concept to public release in ~5 weeks; first external PR merged |
 | [Structured Cloud & SRE Upskilling](projects/11-structured-cloud-sre-upskilling.md) | AWS, Terraform, Kubernetes, Observability (active learning — honestly framed) | |
 | [Librarium: Prompt & Skill Library for AI-Assisted Engineering](projects/12-librarium-prompt-skill-library.md) | Prompt engineering, AI workflow governance, knowledge management, Git-based contribution standards | |
 
