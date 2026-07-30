@@ -2,7 +2,7 @@
 
 A resume/interview-ready pull of quantified results and highlights from across [projects/](projects/). Grouped by theme rather than chronology so bullets can be dropped straight into a resume, cover letter, or LinkedIn summary. Every line here is traceable to a full write-up — no numbers beyond what's documented there.
 
-Last refreshed: July 2026.
+Last refreshed: July 30, 2026.
 
 ---
 
@@ -28,6 +28,7 @@ Last refreshed: July 2026.
 - Designed and matured **Project STC**, an AI-assisted engineering continuity framework — Memory Bank, project context layer, AI instruction layer, and anti-drift mechanisms — from concept into a documented, practically adoptable structure with starter templates, filled-in reference examples, and validation tooling. [→ Project STC](projects/10-project-stc-engineering-continuity-framework.md)
 - Co-designed a cross-agent "baton-passing" coordination model enabling Cline and Codex to share durable context across sessions without duplication; applied it to live delivery work via MCP-connected Jira/Confluence integration. [→ AI Agent & MCP Workflow Enablement](projects/08-ai-agent-mcp-workflow-enablement.md)
 - Designed and launched **Librarium**, a Git-based, PR-reviewed library of reusable AI prompts and workflow skills spanning 9 technology domains (Oracle, MySQL, OAC, Vertica, Linux, and more). [→ Librarium](projects/12-librarium-prompt-skill-library.md)
+- Built **`vertica-readonly-mcp`** at leadership's request — a secure, read-only MCP server giving managers and engineers self-service Codex access to the team's Vertica data, with individual-account credentials, single-SELECT validation, a 500-row cap, and **15/15 passing tests**. [→ Vertica MCP Server](projects/13-vertica-mcp-server.md)
 
 ## Active Development (Honestly Framed)
 
@@ -40,7 +41,7 @@ Last refreshed: July 2026.
 **Languages & Data:** Python, SQL/PL-SQL, Bash/KSH, PowerShell, Git
 **BI & Analytics:** Power BI, Oracle Analytics Cloud, Splunk, Tableau, dimensional modeling, DAX, KPI/OKR design
 **Platforms & Tools:** Oracle RDBMS, Oracle GoldenGate, Jira/Confluence, CI/CD, PyTest, Docker/Kubernetes (learning), Agile/Kanban
-**AI & Automation:** Oracle Code Assist, Cline, Codex, Claude Code, MCP; prompt engineering, AI pair-programming, cross-agent workflow design, framework design
+**AI & Automation:** Oracle Code Assist, Cline, Codex, Claude Code, MCP; prompt engineering, AI pair-programming, MCP server development, cross-agent workflow design, framework design
 
 ---
 

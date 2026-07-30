@@ -35,6 +35,7 @@ These three projects are most representative of observability, service analysis,
 | [Project STC: Engineering Continuity Framework](projects/10-project-stc-engineering-continuity-framework.md) | AI workflow architecture, knowledge management, framework design | Matured from concept to reusable starters, working examples, and validation tooling; applied across active team AI workflows |
 | [Structured Cloud & SRE Upskilling](projects/11-structured-cloud-sre-upskilling.md) | AWS, Terraform, Kubernetes, Observability (active learning — honestly framed) | |
 | [Librarium: Prompt & Skill Library for AI-Assisted Engineering](projects/12-librarium-prompt-skill-library.md) | Prompt engineering, AI workflow governance, knowledge management, Git-based contribution standards | |
+| [Vertica Read-Only MCP Server](projects/13-vertica-mcp-server.md) | MCP server design, secure data access, Python packaging, automated testing | Leadership-requested tool giving managers self-service Codex access to Vertica; 15/15 tests passing |
 
 ---
 
@@ -43,7 +44,7 @@ These three projects are most representative of observability, service analysis,
 **Languages & Data:** Python, SQL/PL-SQL, Bash/KSH, PowerShell, Git  
 **BI & Analytics:** Power BI, Oracle Analytics Cloud (OAC), Splunk, Tableau; dimensional modeling, DAX, KPI/OKR design  
 **Platforms & Tools:** Oracle RDBMS, Oracle GoldenGate, Jira/Confluence, CI/CD, PyTest, Docker/Kubernetes (learning), Agile/Kanban  
-**AI & Automation:** Oracle Code Assist, Cline, Codex, Claude; prompt engineering, AI pair-programming, MCP workflow configuration
+**AI & Automation:** Oracle Code Assist, Cline, Codex, Claude; prompt engineering, AI pair-programming, MCP server development, MCP workflow configuration
 
 ---
 
