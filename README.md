@@ -36,6 +36,7 @@ These three projects are most representative of observability, service analysis,
 | [Structured Cloud & SRE Upskilling](projects/11-structured-cloud-sre-upskilling.md) | AWS, Terraform, Kubernetes, Observability (active learning — honestly framed) | |
 | [Librarium: Prompt & Skill Library for AI-Assisted Engineering](projects/12-librarium-prompt-skill-library.md) | Prompt engineering, AI workflow governance, knowledge management, Git-based contribution standards | |
 | [Vertica Read-Only MCP Server](projects/13-vertica-mcp-server.md) | MCP server design, secure data access, Python packaging, automated testing | Leadership-requested tool giving managers self-service Codex access to Vertica; 15/15 tests passing |
+| [Legacy Product Modernization: Oracle CDB/PDB & GoldenGate 19 Compatibility](projects/14-goldengate-cdb-pdb-modernization.md) | Oracle DB architecture, Oracle GoldenGate, legacy system reverse engineering, cross-platform (Linux/AIX) | Solo modernization supporting a full 2×2×2×2×2×2 client compatibility matrix with zero legacy breakage |
 
 ---
 

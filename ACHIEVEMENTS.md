@@ -2,7 +2,7 @@
 
 A resume/interview-ready pull of quantified results and highlights from across [projects/](projects/). Grouped by theme rather than chronology so bullets can be dropped straight into a resume, cover letter, or LinkedIn summary. Every line here is traceable to a full write-up — no numbers beyond what's documented there.
 
-Last refreshed: July 30, 2026.
+Last refreshed: August 3, 2026.
 
 ---
 
@@ -29,6 +29,11 @@ Last refreshed: July 30, 2026.
 - Co-designed a cross-agent "baton-passing" coordination model enabling Cline and Codex to share durable context across sessions without duplication; applied it to live delivery work via MCP-connected Jira/Confluence integration. [→ AI Agent & MCP Workflow Enablement](projects/08-ai-agent-mcp-workflow-enablement.md)
 - Designed and launched **Librarium**, a Git-based, PR-reviewed library of reusable AI prompts and workflow skills spanning 9 technology domains (Oracle, MySQL, OAC, Vertica, Linux, and more). [→ Librarium](projects/12-librarium-prompt-skill-library.md)
 - Built **`vertica-readonly-mcp`** at leadership's request — a secure, read-only MCP server giving managers and engineers self-service Codex access to the team's Vertica data, with individual-account credentials, single-SELECT validation, a 500-row cap, and **15/15 passing tests**. [→ Vertica MCP Server](projects/13-vertica-mcp-server.md)
+
+## Legacy Systems Modernization & Database Engineering
+
+- Sole engineer on a full modernization of a proprietary Oracle GoldenGate/database configuration and monitoring tool to support Oracle's CDB/PDB multitenant architecture, replacing a decade-old `sysdba`-based connection model that broke under the new architecture. Mapped and updated **several hundred files** via independent code review and topology analysis. [→ GoldenGate CDB/PDB Modernization](projects/14-goldengate-cdb-pdb-modernization.md)
+- Delivered parallel GoldenGate 11 and GoldenGate 19 support end-to-end (source, midtier, onsite databases) and validated the tool across the full client compatibility matrix — source/target database version, source/target/onsite GoldenGate version, and OS (Linux/AIX) — with zero breakage to legacy client deployments. Traced and tested entirely by hand, with no AI-assisted tooling available at the time. [→ GoldenGate CDB/PDB Modernization](projects/14-goldengate-cdb-pdb-modernization.md)
 
 ## Active Development (Honestly Framed)
 
