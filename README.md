@@ -37,6 +37,8 @@ These three projects are most representative of observability, service analysis,
 | [Librarium: Prompt & Skill Library for AI-Assisted Engineering](projects/12-librarium-prompt-skill-library.md) | Prompt engineering, AI workflow governance, knowledge management, Git-based contribution standards | |
 | [Vertica Read-Only MCP Server](projects/13-vertica-mcp-server.md) | MCP server design, secure data access, Python packaging, automated testing | Leadership-requested tool giving managers self-service Codex access to Vertica; 15/15 tests passing |
 | [Legacy Product Modernization: Oracle CDB/PDB & GoldenGate 19 Compatibility](projects/14-goldengate-cdb-pdb-modernization.md) | Oracle DB architecture, Oracle GoldenGate, legacy system reverse engineering, cross-platform (Linux/AIX) | Solo modernization supporting a full 2×2×2×2×2×2 client compatibility matrix with zero legacy breakage |
+| [RefRep Process Timings V1: Automated Reporting Pipeline](projects/15-refrep-v1-automated-reporting.md) | Pipeline design, safe data-access boundaries, defensive data handling, automated testing | Repeatable read-only reporting workflow validated against 6 months of production data; 197 passing tests |
+| [OLAM Modernization: RefRep Validation & Evidence-Collection Framework](projects/16-olam-modernization-refrep-validation.md) | Automation architecture, legacy system discovery, governance design, backlog planning | Decomposed a monolithic legacy wrapper into 23 atomic checks and a 109-task governed modernization backlog |
 
 ---
 

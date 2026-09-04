@@ -2,7 +2,7 @@
 
 A resume/interview-ready pull of quantified results and highlights from across [projects/](projects/). Grouped by theme rather than chronology so bullets can be dropped straight into a resume, cover letter, or LinkedIn summary. Every line here is traceable to a full write-up — no numbers beyond what's documented there.
 
-Last refreshed: August 3, 2026.
+Last refreshed: September 4, 2026.
 
 ---
 
@@ -11,6 +11,7 @@ Last refreshed: August 3, 2026.
 - Built the first quantified view of a core operational process: analyzed 447 process runs and 8,157 events over 154 days, mapped 3,911 failure events to structured error codes, and showed failures consumed **59% of tracked process time (69% of the full observation window)**. [→ RepRef Timings Report](projects/01-refrep-timings-analysis.md)
 - Defined and published team SLAs from scratch and built Power BI dashboards delivering the team's **first measurable delivery-performance visibility (~90% project tracking coverage)**, with drill-down cycle-time analytics by project, client, and engineer. [→ SLA Framework & Dashboards](projects/03-sla-framework-dashboards.md)
 - Normalized **1,536 row-level instructions across 311 active Confluence pages** into a dimensional Oracle Analytics Cloud model; delivered 6 stakeholder-facing workbooks with contract-validated, one-command pipeline refresh. [→ Client Docs Analytics](projects/02-client-docs-analytics.md)
+- Turned a one-off 2024 timings analysis into a repeatable, automated reporting pipeline built on a validated read-only data boundary — atomic staged publication, dual-format (Excel/Markdown) output, and a **197-test** passing suite across two coordinated repositories; proven against a 6-month production data run. [→ RefRep V1 Automated Reporting](projects/15-refrep-v1-automated-reporting.md)
 
 ## Automation & Engineering Tooling
 
@@ -22,6 +23,7 @@ Last refreshed: August 3, 2026.
 - Reconstructed and personally piloted an abandoned environment-provisioning process end-to-end, converting fragmented tribal knowledge into a hardened runbook and cutting new-client environment turnaround from **10 business days to 2**. [→ Project Genesis](projects/04-project-genesis-environment-provisioning.md)
 - Authored a leadership-facing CAPA artifact with **17 specific cross-team requirements**, objection responses, and a KPI/evidence model, reframing a production incident from an isolated failure into a systemic upstream process gap. [→ CAPA Requirements Artifact](projects/05-capa-developer-requirements-artifact.md)
 - Ran a structured VDI pilot evaluation against real SRE usage patterns; prevented adoption of a replacement platform that lacked functional parity and secured concrete concessions (bi-directional copy/paste, extended session timeout, restored OneDrive/SharePoint access). [→ OSD VDI Pilot Assessment](projects/07-osd-vdi-pilot-assessment.md)
+- Led a discovery-first review of a fragile, high-risk legacy automation wrapper — decomposing it into **23 atomic node-validation checks** plus additional compatibility, endpoint, and evidence-capture modules — and designed a least-privilege governance model (separated validation, capture, credential, and remediation permissions) translated into a **109-task** reviewable modernization backlog. [→ OLAM Modernization Framework](projects/16-olam-modernization-refrep-validation.md)
 
 ## AI-Assisted Engineering & Workflow Tooling
 
