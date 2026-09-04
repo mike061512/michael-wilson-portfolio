@@ -1,8 +1,8 @@
-# RepRef Timings Report & Error Code Proof of Concept
+# RefRep Timings Report: From Manual PoC to Automated V1 Pipeline
 
-**Role:** Sr. Site Reliability Engineer, Oracle America, Inc.  
-**Analysis Window:** 154 days (Jan 2024 – Jun 2024)  
-**Tools:** Python, SQL, Oracle RDBMS, Excel
+**Role:** Sr. Site Reliability Engineer, Oracle America, Inc.
+**Timeline:** 2024 – Present
+**Tools:** Python, SQL, Oracle RDBMS, Excel, Vertica, MCP (Model Context Protocol), PyTest
 
 ---
 
@@ -10,33 +10,35 @@
 
 A core operational workflow — the replicate and refresh (rep/ref) process — was generating frequent failures with no structured way to understand them. Engineers handled each failure in isolation: no standard error codes, no shared catalog, no way to analyze which failure types were consuming the most time or occurring most frequently.
 
-The result was repeated rediscovery of known problems, siloed remediation knowledge, and no data to support prioritization conversations with engineering or leadership.
+The result was repeated rediscovery of known problems, siloed remediation knowledge, and no data to support prioritization conversations with engineering or leadership. The first version of this work (2024) was a manual, one-off proof of concept — it proved the value of the analysis but had to be rebuilt from scratch every time it ran.
 
 ---
 
 ## What I Did
 
-### Data Collection & Analysis
+### 2024: Data Collection & Analysis (Proof of Concept)
 
 - Collected timing and event data across **447 process runs** and **8,157 events** over a 154-day window
 - Analyzed event outcomes, durations, and failure rates to produce the first quantified picture of process health
 - Mapped **3,911 failure events** to structured error codes, enabling frequency analysis and time attribution by error type
+- Demonstrated a method for mapping raw error messages to unique, categorized error codes at scale, and authored a formal PoC document outlining a proposed error catalog and next steps
+- Produced a timing summary report and proposed an OKR/KPI framework for ongoing rep/ref health tracking
 
-### Error Code Proof of Concept
+### 2026: Automated V1 Pipeline Uplift
 
-- Demonstrated a method for mapping raw error messages to unique, categorized error codes at scale
-- Designed a proposed error catalog structure: error-to-code mapping, grouping and reporting capabilities, per-error reference pages, and ticketing system integration
-- Authored a formal PoC document outlining implementation approach, cross-team benefits, and next steps
+Rebuilding the manual PoC into a repeatable, operator-run pipeline, built on the [Vertica read-only MCP server](13-vertica-mcp-server.md) I had already built:
 
-### Reporting & KPI Design
+- **Automated export:** the MCP server performs the data export for a provided date range directly against Vertica — fixed export datasets, parameterized half-open date bounds, named approved exclusion profiles — replacing the manual one-off SQL pulls from the 2024 PoC
+- **Automated validation:** export receipts, CSV schema, checksums, row counts, and date-interval contracts are validated before any analysis runs
+- **Automated classification:** lifecycle state, workflow path and deviations, diagnostic evidence, and error-taxonomy categorization now run automatically — closing the biggest manual gap from the 2024 PoC, where error-to-code mapping was done by hand
+- **Atomic, fail-safe publish:** artifacts are staged before atomically replacing the local `latest` output, so a failed or partial run never overwrites a good one; found and fixed an Excel-only edge case where source text containing XML-forbidden control characters could break the workbook export
+- **Tested and proven:** 161 report-repository tests and 36 MCP-repository tests passing; validated end to end against an approved, read-only six-month production data run (2026-03-03 through 2026-09-03)
 
-- Produced a timing summary report with findings organized for both engineering and leadership audiences
-- Proposed an OKR/KPI framework for ongoing rep/ref health tracking (error rate, lead time, MTTR by error category)
-- Outlined a path toward repeatable monthly and quarterly analysis runs
+**Still in progress:** the visualization/reporting layer. Data collection, validation, and error categorization are automated and proven end to end — the presentation layer on top of the Markdown/Excel output is still being built out.
 
 ---
 
-## Key Findings
+## Key Findings (2024 PoC Baseline)
 
 | Metric | Value |
 |---|---|
@@ -58,8 +60,9 @@ The result was repeated rediscovery of known problems, siloed remediation knowle
 - **First structured, quantified view** of how much time was lost to failures in this process — previously unmeasured
 - Gave leadership a concrete figure (69% of operational time consumed by failures) to anchor investment conversations about error reduction
 - Demonstrated that a small number of high-frequency error types drove a disproportionate share of lost time — creating a clear, defensible prioritization target
-- Established a **repeatable analysis approach** that could be executed on a monthly or quarterly cadence without rebuilding from scratch
-- Created the foundation for cross-team engagement with engineering on error prioritization and catalog development
+- Converted the one-off 2024 PoC into a repeatable, automated pipeline: what previously required manual SQL, manual error mapping, and manual report assembly now runs on demand against a validated, read-only data boundary
+- Extended the Vertica MCP server — originally built for ad hoc self-service queries — into a second, proven production use case
+- Eliminated a class of report-corruption risk through staged, atomic publication with automatic fallback to the last good output
 
 ---
 
@@ -69,4 +72,7 @@ The result was repeated rediscovery of known problems, siloed remediation knowle
 - Structured error classification and cataloging design
 - Quantitative problem framing for engineering and leadership audiences
 - KPI and OKR definition for service health tracking
-- Proof-of-concept documentation and cross-team stakeholder communication
+- Pipeline design: automated extract → validate → classify → report
+- Safe, boundary-first production data-access design (building on prior MCP server work)
+- Defensive data handling: receipt/schema/checksum validation, atomic fail-safe publication
+- Automated test discipline across two coordinated repositories (197 total passing tests)

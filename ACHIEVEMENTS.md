@@ -8,10 +8,9 @@ Last refreshed: September 4, 2026.
 
 ## Observability, SLA & Reporting
 
-- Built the first quantified view of a core operational process: analyzed 447 process runs and 8,157 events over 154 days, mapped 3,911 failure events to structured error codes, and showed failures consumed **59% of tracked process time (69% of the full observation window)**. [→ RepRef Timings Report](projects/01-refrep-timings-analysis.md)
+- Built the first quantified view of a core operational process: analyzed 447 process runs and 8,157 events over 154 days, mapped 3,911 failure events to structured error codes, and showed failures consumed **59% of tracked process time (69% of the full observation window)**. Uplifted the one-off analysis into a repeatable automated pipeline — read-only Vertica export by date range, automated error classification, atomic staged publication, dual-format (Excel/Markdown) output — proven against a 6-month production data run with a **197-test** passing suite; visualization layer still in progress. [→ RefRep Timings Report](projects/01-refrep-timings-analysis.md)
 - Defined and published team SLAs from scratch and built Power BI dashboards delivering the team's **first measurable delivery-performance visibility (~90% project tracking coverage)**, with drill-down cycle-time analytics by project, client, and engineer. [→ SLA Framework & Dashboards](projects/03-sla-framework-dashboards.md)
 - Normalized **1,536 row-level instructions across 311 active Confluence pages** into a dimensional Oracle Analytics Cloud model; delivered 6 stakeholder-facing workbooks with contract-validated, one-command pipeline refresh. [→ Client Docs Analytics](projects/02-client-docs-analytics.md)
-- Turned a one-off 2024 timings analysis into a repeatable, automated reporting pipeline built on a validated read-only data boundary — atomic staged publication, dual-format (Excel/Markdown) output, and a **197-test** passing suite across two coordinated repositories; proven against a 6-month production data run. [→ RefRep V1 Automated Reporting](projects/15-refrep-v1-automated-reporting.md)
 
 ## Automation & Engineering Tooling
 

@@ -39,6 +39,7 @@ Deliberately scoped as a small pilot rather than a shared service — the next s
 - Gave managers a self-service way to ask plain-language questions ("what schemas can I access?", "show me the columns in this table") without waiting on an engineer to run a lookup.
 - Shortened the path from question to evidence for engineers: discover schema, inspect structure, run a narrow query — all in one Codex session.
 - Individual accounts preserve accountability and keep database permissions as the ultimate enforcement point, so the tool adds convenience without adding risk.
+- Proved out as a reusable data-access boundary beyond its original self-service use case: it now also powers the automated export step in the [RefRep timings reporting pipeline](01-refrep-timings-analysis.md).
 
 ---
 
