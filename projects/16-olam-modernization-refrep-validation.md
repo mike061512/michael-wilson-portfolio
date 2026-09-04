@@ -31,9 +31,15 @@ Completed a static, execution-free review of the legacy automation surface — r
 - Established that validation, evidence capture, notification, Jira integration, credential retrieval, and remediation each require **separate tasks and separate permissions** — no future job can silently accumulate scope
 - Explicitly excluded state-changing and high-risk actions (credential retrieval, database mutation, source-to-target restore/copy, package installation) from the initial adoption wave, routing them instead to a future change-workflow with its own approval and rollback controls
 
-### Produced a reviewable planning artifact
+### Designed a task-allocation framework with built-in management visibility
 
-Translated the discovery findings into a structured Epic skeleton — roughly 109 leaf-level placeholder tasks organized under seven module areas (foundation, atomic checks, controlled evidence capture, prerequisite certification, manual-runbook mining, and sensitive-output/remediation decisions). Framed explicitly as a planning skeleton for team review, not authorization to create Jira issues or configure OLAM.
+Translated the discovery findings into a structured Jira Epic skeleton — not just a backlog dump, but a three-tier framework built so the same artifact serves engineers, team leads, and leadership at once:
+
+- **Epic** — the single objective and status leadership tracks without needing module-level detail
+- **Parent work packages** (e.g., node validation, compatibility comparison, LDAP/security-hosting, TNS validation) — the unit team leads assign to an engineer or sub-team, each with its own scope and boundary
+- **Atomic leaf tasks** (roughly 109 of them across seven module areas — foundation, atomic checks, controlled evidence capture, prerequisite certification, manual-runbook mining, and sensitive-output/remediation decisions) — small enough that any engineer can pick one up independently, with its own notes and completion evidence, without blocking on the rest of the module
+
+Every task carries an explicit rule set (one job, one purpose, one result contract, stated non-responsibilities) so an engineer picking up any leaf task — regardless of who scoped it — produces work that fits the same governance model. Framed explicitly as a planning skeleton for team review, not authorization to create Jira issues or configure OLAM.
 
 ---
 
@@ -49,6 +55,7 @@ The project is in discovery and planning: no OLAM job templates, credentials, sc
 - Established a separation-of-duties model that isolates credential handling and state-changing actions from routine, low-risk validation work
 - Prevented premature migration of unproven legacy scripts by requiring explicit certification against the application's real prerequisite contract first
 - Created a durable, evidence-based planning artifact that lets the team adopt the new model incrementally, with governance decisions made once and reused across every future check
+- Gave the effort a shared structure that scales across the organization: engineers get independently assignable atomic tasks, team leads get parent-level work packages to distribute, and leadership gets Epic-level progress — without anyone needing to track 109 individual line items to see whether the initiative is moving
 
 ---
 
@@ -59,3 +66,4 @@ The project is in discovery and planning: no OLAM job templates, credentials, sc
 - Security-conscious systems design: credential isolation, output redaction, artifact retention policy
 - Large-scale backlog decomposition and Epic/task planning for cross-team review
 - Governance design: explicit approval boundaries, ownership assignment, and scope exclusions for high-risk work
+- Multi-level program framework design: structuring one artifact to serve engineer task allocation, team-lead work distribution, and leadership visibility simultaneously
