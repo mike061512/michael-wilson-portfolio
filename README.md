@@ -16,7 +16,7 @@ These three projects are most representative of observability, service analysis,
 
 | Project | Core Skills | Key Result |
 |---|---|---|
-| [RefRep Timings Report: From Manual PoC to Automated V1 Pipeline](projects/01-refrep-timings-analysis.md) | Operational data analysis, error cataloging, KPI design, automated pipeline design | Mapped 3,911 failure events (59% of total process time); now an automated pipeline validated against 6 months of production data with 197 passing tests |
+| [RefRep Timings Report: From Manual PoC to Automated V1 Pipeline](projects/01-refrep-timings-analysis.md) | Operational data analysis, error cataloging, KPI design, automated pipeline design | Now runs automatically over a 12-month, 670-project window with 94.4% auto-classified error taxonomy coverage and a 94.7% workflow-deviation rate surfaced for the first time |
 | [Client Documentation Analytics & OAC Workbook Suite](projects/02-client-docs-analytics.md) | Dimensional modeling, BI dashboard delivery, pipeline design | 1,536 normalized rows across 311 pages; 6 stakeholder workbooks delivered |
 | [SLA Framework & Delivery Performance Dashboards](projects/03-sla-framework-dashboards.md) | SLA/SLO definition, Power BI, KPI standardization | First measurable delivery visibility for the team; ~90% project tracking coverage |
 
