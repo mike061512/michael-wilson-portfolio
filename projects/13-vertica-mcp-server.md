@@ -28,7 +28,7 @@ Designed and built `vertica-readonly-mcp`, a local STDIO MCP server that gives C
 
 ## Current State
 
-Shipped as a working local MCP integration: Python 3.11+ packaging with a `vertica-readonly-mcp` console command, Windows and macOS setup paths, and 15 passing automated tests. No credentials, `.env` files, or query data are committed to the repository.
+Shipped as a working local MCP integration: Python 3.11+ packaging with a `vertica-readonly-mcp` console command, Windows and macOS setup paths, and a growing automated test suite — 15 tests at initial delivery, now at **36 passing tests** as the tool has matured. No credentials, `.env` files, or query data are committed to the repository.
 
 Deliberately scoped as a small pilot rather than a shared service — the next step is a small manager pilot (individual read-only accounts, over VPN) before any broader rollout or centrally managed packaging is considered.
 
@@ -48,5 +48,5 @@ Deliberately scoped as a small pilot rather than a shared service — the next s
 - MCP server design and implementation (STDIO transport, tool boundary design)
 - Secure-by-design data access: read-only enforcement, SQL validation, credential isolation, generic error handling
 - Cross-platform Python packaging and reproducible setup tooling
-- Automated testing (15 passing tests) as part of initial delivery, not an afterthought
+- Automated testing as part of initial delivery, not an afterthought — grown from 15 tests at launch to 36 passing tests today
 - Translating a leadership ask into a scoped, safe pilot rather than an over-built service
