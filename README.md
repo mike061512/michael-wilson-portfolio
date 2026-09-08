@@ -38,6 +38,7 @@ These three projects are most representative of observability, service analysis,
 | [Vertica Read-Only MCP Server](projects/13-vertica-mcp-server.md) | MCP server design, secure data access, Python packaging, automated testing | Leadership-requested tool giving managers self-service Codex access to Vertica; grown from 15 to 36 passing tests |
 | [Legacy Product Modernization: Oracle CDB/PDB & GoldenGate 19 Compatibility](projects/14-goldengate-cdb-pdb-modernization.md) | Oracle DB architecture, Oracle GoldenGate, legacy system reverse engineering, cross-platform (Linux/AIX) | Solo modernization supporting a full 2×2×2×2×2×2 client compatibility matrix with zero legacy breakage |
 | [OLAM Modernization: RefRep Validation & Evidence-Collection Framework](projects/15-olam-modernization-refrep-validation.md) | Automation architecture, legacy system discovery, governance design, multi-level program framework design | Decomposed a monolithic legacy wrapper into a 109-task, three-tier framework giving engineers assignable work and leadership Epic-level visibility |
+| [Fleet Performance Analytics: Purge Instrumentation & Cross-Client Benchmarking](projects/16-purge-fleet-analytics-tableau.md) | Process instrumentation, Tableau, Vertica/Oracle analytics, cross-client benchmarking, PL/SQL parallelization | Cut average nightly purge runtime from 9–12 hours to ~3; surfaced an internal workaround, unsupported client config drift, and hardware provisioning errors invisible before the telemetry existed |
 
 ---
 

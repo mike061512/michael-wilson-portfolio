@@ -2,7 +2,7 @@
 
 A resume/interview-ready pull of quantified results and highlights from across [projects/](projects/). Grouped by theme rather than chronology so bullets can be dropped straight into a resume, cover letter, or LinkedIn summary. Every line here is traceable to a full write-up — no numbers beyond what's documented there.
 
-Last refreshed: September 4, 2026.
+Last refreshed: September 7, 2026.
 
 ---
 
@@ -11,6 +11,7 @@ Last refreshed: September 4, 2026.
 - Built the first quantified view of a core operational process (447 runs, 8,157 events, 3,911 mapped failures in a manual 2024 PoC) and uplifted it into a repeatable automated pipeline — read-only Vertica export by date range, automated error classification, atomic staged publication, **197 passing tests**. The current automated run covers a full 12-month, **670-project** window with **94.4% auto-classified** taxonomy coverage and surfaced a new finding invisible to the manual PoC: a **94.7% workflow-deviation rate** across assessed projects, plus unclassified inter-step time running 17x larger than explicit failure time — reframing the team's prioritization conversation. Visualization layer still in progress. [→ RefRep Timings Report](projects/01-refrep-timings-analysis.md)
 - Defined and published team SLAs from scratch and built Power BI dashboards delivering the team's **first measurable delivery-performance visibility (~90% project tracking coverage)**, with drill-down cycle-time analytics by project, client, and engineer. [→ SLA Framework & Dashboards](projects/03-sla-framework-dashboards.md)
 - Normalized **1,536 row-level instructions across 311 active Confluence pages** into a dimensional Oracle Analytics Cloud model; delivered 6 stakeholder-facing workbooks with contract-validated, one-command pipeline refresh. [→ Client Docs Analytics](projects/02-client-docs-analytics.md)
+- Redesigned a fleet-wide nightly purge process from a single linear pass into parallel job streams, cutting average runtime from **9–12 hours to ~3**, then instrumented it with per-batch telemetry that didn't previously exist and built Tableau benchmarking across the full multi-tenant install base. The resulting cross-client baseline surfaced an undocumented internal workaround, unsupported client configuration drift, and undersized/misprovisioned hardware — none visible through existing tooling — and gave Operations version-attributable evidence to drive release adoption. [→ Fleet Performance Analytics](projects/16-purge-fleet-analytics-tableau.md)
 
 ## Automation & Engineering Tooling
 
