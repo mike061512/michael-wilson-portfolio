@@ -2,15 +2,16 @@
 
 A resume/interview-ready pull of quantified results and highlights from across [projects/](projects/). Grouped by theme rather than chronology so bullets can be dropped straight into a resume, cover letter, or LinkedIn summary. Every line here is traceable to a full write-up — no numbers beyond what's documented there.
 
-Last refreshed: August 3, 2026.
+Last refreshed: September 7, 2026.
 
 ---
 
 ## Observability, SLA & Reporting
 
-- Built the first quantified view of a core operational process: analyzed 447 process runs and 8,157 events over 154 days, mapped 3,911 failure events to structured error codes, and showed failures consumed **59% of tracked process time (69% of the full observation window)**. [→ RepRef Timings Report](projects/01-refrep-timings-analysis.md)
+- Built the first quantified view of a core operational process (447 runs, 8,157 events, 3,911 mapped failures in a manual 2024 PoC) and uplifted it into a repeatable automated pipeline — read-only Vertica export by date range, automated error classification, atomic staged publication, **197 passing tests**. The current automated run covers a full 12-month, **670-project** window with **94.4% auto-classified** taxonomy coverage and surfaced a new finding invisible to the manual PoC: a **94.7% workflow-deviation rate** across assessed projects, plus unclassified inter-step time running 17x larger than explicit failure time — reframing the team's prioritization conversation. Visualization layer still in progress. [→ RefRep Timings Report](projects/01-refrep-timings-analysis.md)
 - Defined and published team SLAs from scratch and built Power BI dashboards delivering the team's **first measurable delivery-performance visibility (~90% project tracking coverage)**, with drill-down cycle-time analytics by project, client, and engineer. [→ SLA Framework & Dashboards](projects/03-sla-framework-dashboards.md)
 - Normalized **1,536 row-level instructions across 311 active Confluence pages** into a dimensional Oracle Analytics Cloud model; delivered 6 stakeholder-facing workbooks with contract-validated, one-command pipeline refresh. [→ Client Docs Analytics](projects/02-client-docs-analytics.md)
+- Redesigned a fleet-wide nightly purge process from a single linear pass into parallel job streams, cutting average runtime from **9–12 hours to ~3**, then instrumented it with per-batch telemetry that didn't previously exist and built Tableau benchmarking across the full multi-tenant install base. The resulting cross-client baseline surfaced an undocumented internal workaround, unsupported client configuration drift, and undersized/misprovisioned hardware — none visible through existing tooling — and gave Operations version-attributable evidence to drive release adoption. [→ Fleet Performance Analytics](projects/16-purge-fleet-analytics-tableau.md)
 
 ## Automation & Engineering Tooling
 
@@ -22,13 +23,14 @@ Last refreshed: August 3, 2026.
 - Reconstructed and personally piloted an abandoned environment-provisioning process end-to-end, converting fragmented tribal knowledge into a hardened runbook and cutting new-client environment turnaround from **10 business days to 2**. [→ Project Genesis](projects/04-project-genesis-environment-provisioning.md)
 - Authored a leadership-facing CAPA artifact with **17 specific cross-team requirements**, objection responses, and a KPI/evidence model, reframing a production incident from an isolated failure into a systemic upstream process gap. [→ CAPA Requirements Artifact](projects/05-capa-developer-requirements-artifact.md)
 - Ran a structured VDI pilot evaluation against real SRE usage patterns; prevented adoption of a replacement platform that lacked functional parity and secured concrete concessions (bi-directional copy/paste, extended session timeout, restored OneDrive/SharePoint access). [→ OSD VDI Pilot Assessment](projects/07-osd-vdi-pilot-assessment.md)
+- Led a discovery-first review of a fragile, high-risk legacy automation wrapper — decomposing it into **23 atomic node-validation checks** plus additional compatibility, endpoint, and evidence-capture modules — and designed a least-privilege governance model translated into a **109-task**, three-tier project framework (Epic → parent work packages → atomic tasks) that gives engineers independently assignable work while giving leadership Epic-level visibility without tracking every line item. [→ OLAM Modernization Framework](projects/15-olam-modernization-refrep-validation.md)
 
 ## AI-Assisted Engineering & Workflow Tooling
 
 - Designed and matured **Project STC**, an AI-assisted engineering continuity framework — Memory Bank, project context layer, AI instruction layer, and anti-drift mechanisms — from concept into a documented, practically adoptable structure with starter templates, filled-in reference examples, and validation tooling. [→ Project STC](projects/10-project-stc-engineering-continuity-framework.md)
 - Co-designed a cross-agent "baton-passing" coordination model enabling Cline and Codex to share durable context across sessions without duplication; applied it to live delivery work via MCP-connected Jira/Confluence integration. [→ AI Agent & MCP Workflow Enablement](projects/08-ai-agent-mcp-workflow-enablement.md)
 - Designed and launched **Librarium**, a Git-based, PR-reviewed library of reusable AI prompts and workflow skills spanning 9 technology domains (Oracle, MySQL, OAC, Vertica, Linux, and more). [→ Librarium](projects/12-librarium-prompt-skill-library.md)
-- Built **`vertica-readonly-mcp`** at leadership's request — a secure, read-only MCP server giving managers and engineers self-service Codex access to the team's Vertica data, with individual-account credentials, single-SELECT validation, a 500-row cap, and **15/15 passing tests**. [→ Vertica MCP Server](projects/13-vertica-mcp-server.md)
+- Built **`vertica-readonly-mcp`** at leadership's request — a secure, read-only MCP server giving managers and engineers self-service Codex access to the team's Vertica data, with individual-account credentials, single-SELECT validation, a 500-row cap, and a test suite grown from 15 to **36 passing tests**. [→ Vertica MCP Server](projects/13-vertica-mcp-server.md)
 
 ## Legacy Systems Modernization & Database Engineering
 

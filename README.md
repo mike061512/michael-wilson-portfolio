@@ -16,7 +16,7 @@ These three projects are most representative of observability, service analysis,
 
 | Project | Core Skills | Key Result |
 |---|---|---|
-| [RepRef Timings Report & Error Code PoC](projects/01-refrep-timings-analysis.md) | Operational data analysis, error cataloging, KPI design | Mapped 3,911 failure events; identified failures consuming 59% of total process time |
+| [RefRep Timings Report: From Manual PoC to Automated V1 Pipeline](projects/01-refrep-timings-analysis.md) | Operational data analysis, error cataloging, KPI design, automated pipeline design | Now runs automatically over a 12-month, 670-project window with 94.4% auto-classified error taxonomy coverage and a 94.7% workflow-deviation rate surfaced for the first time |
 | [Client Documentation Analytics & OAC Workbook Suite](projects/02-client-docs-analytics.md) | Dimensional modeling, BI dashboard delivery, pipeline design | 1,536 normalized rows across 311 pages; 6 stakeholder workbooks delivered |
 | [SLA Framework & Delivery Performance Dashboards](projects/03-sla-framework-dashboards.md) | SLA/SLO definition, Power BI, KPI standardization | First measurable delivery visibility for the team; ~90% project tracking coverage |
 
@@ -35,8 +35,10 @@ These three projects are most representative of observability, service analysis,
 | [Project STC: Engineering Continuity Framework](projects/10-project-stc-engineering-continuity-framework.md) | AI workflow architecture, knowledge management, framework design | Matured from concept to reusable starters, working examples, and validation tooling; applied across active team AI workflows |
 | [Structured Cloud & SRE Upskilling](projects/11-structured-cloud-sre-upskilling.md) | AWS, Terraform, Kubernetes, Observability (active learning — honestly framed) | |
 | [Librarium: Prompt & Skill Library for AI-Assisted Engineering](projects/12-librarium-prompt-skill-library.md) | Prompt engineering, AI workflow governance, knowledge management, Git-based contribution standards | |
-| [Vertica Read-Only MCP Server](projects/13-vertica-mcp-server.md) | MCP server design, secure data access, Python packaging, automated testing | Leadership-requested tool giving managers self-service Codex access to Vertica; 15/15 tests passing |
+| [Vertica Read-Only MCP Server](projects/13-vertica-mcp-server.md) | MCP server design, secure data access, Python packaging, automated testing | Leadership-requested tool giving managers self-service Codex access to Vertica; grown from 15 to 36 passing tests |
 | [Legacy Product Modernization: Oracle CDB/PDB & GoldenGate 19 Compatibility](projects/14-goldengate-cdb-pdb-modernization.md) | Oracle DB architecture, Oracle GoldenGate, legacy system reverse engineering, cross-platform (Linux/AIX) | Solo modernization supporting a full 2×2×2×2×2×2 client compatibility matrix with zero legacy breakage |
+| [OLAM Modernization: RefRep Validation & Evidence-Collection Framework](projects/15-olam-modernization-refrep-validation.md) | Automation architecture, legacy system discovery, governance design, multi-level program framework design | Decomposed a monolithic legacy wrapper into a 109-task, three-tier framework giving engineers assignable work and leadership Epic-level visibility |
+| [Fleet Performance Analytics: Purge Instrumentation & Cross-Client Benchmarking](projects/16-purge-fleet-analytics-tableau.md) | Process instrumentation, Tableau, Vertica/Oracle analytics, cross-client benchmarking, PL/SQL parallelization | Cut average nightly purge runtime from 9–12 hours to ~3; surfaced an internal workaround, unsupported client config drift, and hardware provisioning errors invisible before the telemetry existed |
 
 ---
 
