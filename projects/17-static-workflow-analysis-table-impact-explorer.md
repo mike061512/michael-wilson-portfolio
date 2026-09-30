@@ -1,8 +1,8 @@
 # Static Workflow Analysis & Table-Impact Explorer
 
-**Role:** Site Reliability Engineer  
-**Timeline:** 2026  
-**Tools:** HTML, JavaScript, Python, AI-assisted static analysis, CSV export
+**Role:** Sr. Site Reliability Engineer, Oracle America, Inc.
+**Timeline:** 2026 - Present (discovery and continued development)
+**Tools:** Python, Codex (AI-assisted analysis and artifact generation), HTML/JavaScript (generated interactive explorer), CSV export
 
 ---
 
@@ -69,9 +69,9 @@ The explorer turns broad review concerns into practical questions that can be an
 
 ---
 
-## Relationship to macro-exterminatus
+## Relationship to the RefRep Response Generator
 
-This explorer is a companion to the macro-exterminatus project. Macro-exterminatus focuses on producing and validating response-file configurations, while this project maps how those selections can influence downstream workflow paths, checkpoints, and review questions.
+This explorer is a companion to the RefRep Response Generator (internal repo name: macro-exterminatus). The Response Generator produces and validates response-file configurations, while this project maps how those selections influence downstream workflow paths, checkpoints, and review questions.
 
 The relationship is deliberately iterative:
 
@@ -94,6 +94,12 @@ This creates a controlled feedback loop: configuration evidence sharpens workflo
 
 ---
 
+## Current State
+
+In progress. The explorer has been reviewed and demonstrated in limited early sessions while under active development, with positive initial reception. A first walkthrough for development teams and management is the next step. Table-impact entries remain static candidate effects until reconciled against run-specific evidence.
+
+---
+
 ## Impact
 
 - Consolidated workflow, scenario, evidence, developer questions, improvement opportunities, and table-impact review into one portable local artifact for demos and design discussions
@@ -108,7 +114,7 @@ This creates a controlled feedback loop: configuration evidence sharpens workflo
 
 - Static workflow analysis and technical process modeling
 - AI-assisted evidence synthesis and cross-artifact correlation
-- Interactive HTML and JavaScript artifact design
+- Interactive review-artifact design and specification (AI-assisted build with Codex, human-reviewed)
 - Conditional-path and checkpoint visualization
 - Table-level impact analysis with predicates and evidence references
 - Configuration-to-workflow traceability design
