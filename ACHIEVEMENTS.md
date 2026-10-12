@@ -16,7 +16,7 @@ Last refreshed: October 11, 2026.
 ## Automation & Engineering Tooling
 
 - Rebuilt a legacy Word-macro configuration process into a Python CLI with fail-fast validation, dual Oracle connectivity modes, and a **92/92 passing test suite**; cut per-project effort from ~60 minutes to ~30 seconds, saving an estimated **~1,194 hours/year** across ~100 monthly projects. Delivered production-ready in ~1 month using AI-assisted development vs. a typical 6–12 month timeline. [→ RefRep Python Automation](projects/06-refrep-python-automation.md)
-- Built an end-to-end personal finance platform (Python ETL + 9-page Power BI report, idempotent multi-source merge, custom DAX); surfaced and cancelled an unused **$309/yr subscription** and flagged a **~$33K anomalous balance drop** for review. [→ Personal Finance Intelligence Platform](projects/09-personal-finance-intelligence-platform.md)
+- Built an end-to-end personal finance platform (Python ETL + 9-page Power BI report, idempotent multi-source merge, custom DAX); surfaced and cancelled an unused **~$300/yr subscription** and flagged a **~$33K anomalous balance drop** for review. [→ Personal Finance Intelligence Platform](projects/09-personal-finance-intelligence-platform.md)
 
 ## Process Recovery & Requirements Engineering
 

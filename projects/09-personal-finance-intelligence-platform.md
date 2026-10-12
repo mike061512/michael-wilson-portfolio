@@ -84,7 +84,7 @@ Nine-page report with custom DAX measures and calculated columns:
 
 ## Outcomes
 
-- **Subscription audit**: recurring charge detection surfaced an unused sports club membership ($309 YTD) — immediately cancelled
+- **Subscription audit**: recurring charge detection surfaced an unused sports club membership (~$300/yr) — immediately cancelled
 - **Anomaly detection**: account balance chart surfaced a ~$33K single-month balance drop, prompting review of large one-time expenses
 - **Spend visibility**: identified that a single merchant (Amazon, 99 transactions) represents ~5.8% of all YTD debit spend
 - **Process efficiency**: what previously required manual CSV review now runs in seconds via a single Windows executable
