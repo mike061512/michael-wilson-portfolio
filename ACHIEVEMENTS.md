@@ -2,7 +2,7 @@
 
 A resume/interview-ready pull of quantified results and highlights from across [projects/](projects/). Grouped by theme rather than chronology so bullets can be dropped straight into a resume, cover letter, or LinkedIn summary. Every line here is traceable to a full write-up — no numbers beyond what's documented there.
 
-Last refreshed: September 7, 2026.
+Last refreshed: October 11, 2026.
 
 ---
 
@@ -24,6 +24,7 @@ Last refreshed: September 7, 2026.
 - Authored a leadership-facing CAPA artifact with **17 specific cross-team requirements**, objection responses, and a KPI/evidence model, reframing a production incident from an isolated failure into a systemic upstream process gap. [→ CAPA Requirements Artifact](projects/05-capa-developer-requirements-artifact.md)
 - Ran a structured VDI pilot evaluation against real SRE usage patterns; prevented adoption of a replacement platform that lacked functional parity and secured concrete concessions (bi-directional copy/paste, extended session timeout, restored OneDrive/SharePoint access). [→ OSD VDI Pilot Assessment](projects/07-osd-vdi-pilot-assessment.md)
 - Led a discovery-first review of a fragile, high-risk legacy automation wrapper — decomposing it into **23 atomic node-validation checks** plus additional compatibility, endpoint, and evidence-capture modules — and designed a least-privilege governance model translated into a **109-task**, three-tier project framework (Epic → parent work packages → atomic tasks) that gives engineers independently assignable work while giving leadership Epic-level visibility without tracking every line item. [→ OLAM Modernization Framework](projects/15-olam-modernization-refrep-validation.md)
+- Building an evidence-aware workflow explorer (in progress) that turns a large static code and procedure review into a single interactive briefing: route-specific stages, decision points, restart boundaries, and a filterable table-level catalog of candidate cleanup effects with CSV export, keeping static source observations explicitly separate from runtime behavior. Companion to the RefRep Response Generator, creating a feedback loop between configuration validation and downstream workflow discovery. [→ Static Workflow Analysis & Table-Impact Explorer](projects/17-static-workflow-analysis-table-impact-explorer.md)
 
 ## AI-Assisted Engineering & Workflow Tooling
 
