@@ -1,8 +1,8 @@
-# Achievements Reference — Job Search Material
+# Achievements & Quantified Results
 
-A resume/interview-ready pull of quantified results and highlights from across [projects/](projects/). Grouped by theme rather than chronology so bullets can be dropped straight into a resume, cover letter, or LinkedIn summary. Every line here is traceable to a full write-up — no numbers beyond what's documented there.
+Quantified results and highlights from across [projects/](projects/), grouped by theme rather than chronology. Each entry links to the full project write-up, where the underlying work, numbers, and context are documented.
 
-Last refreshed: October 11, 2026.
+Last updated: October 11, 2026.
 
 ---
 
@@ -38,9 +38,9 @@ Last refreshed: October 11, 2026.
 - Sole engineer on a full modernization of a proprietary Oracle GoldenGate/database configuration and monitoring tool to support Oracle's CDB/PDB multitenant architecture, replacing a decade-old `sysdba`-based connection model that broke under the new architecture. Mapped and updated **several hundred files** via independent code review and topology analysis. [→ GoldenGate CDB/PDB Modernization](projects/14-goldengate-cdb-pdb-modernization.md)
 - Delivered parallel GoldenGate 11 and GoldenGate 19 support end-to-end (source, midtier, onsite databases) and validated the tool across the full client compatibility matrix — source/target database version, source/target/onsite GoldenGate version, and OS (Linux/AIX) — with zero breakage to legacy client deployments. Traced and tested entirely by hand, with no AI-assisted tooling available at the time. [→ GoldenGate CDB/PDB Modernization](projects/14-goldengate-cdb-pdb-modernization.md)
 
-## Active Development (Honestly Framed)
+## Active Development
 
-- Pursuing structured, self-directed upskilling in **AWS, Terraform, and Kubernetes** through an SRE "build-break-fix-explain" methodology — explicitly framed as active learning in progress, not claimed production experience. [→ Cloud & SRE Upskilling](projects/11-structured-cloud-sre-upskilling.md)
+- Pursuing structured, self-directed upskilling in **AWS, Terraform, and Kubernetes** through an SRE "build-break-fix-explain" methodology — active learning in progress rather than production experience. [→ Cloud & SRE Upskilling](projects/11-structured-cloud-sre-upskilling.md)
 
 ---
 
@@ -53,4 +53,4 @@ Last refreshed: October 11, 2026.
 
 ---
 
-*Source of truth for numbers and dates is each project's full write-up in [projects/](projects/) — update there first, then reflect changes here.*
+*Numbers and dates reflect each project's full write-up in [projects/](projects/).*

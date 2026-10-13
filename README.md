@@ -6,7 +6,7 @@
 
 Operations and analytics professional with 10+ years across SRE, platform operations, software engineering, and data analysis. I build service observability frameworks from scratch — quantifying failure patterns, defining SLAs, designing dashboards, and translating operational data into stakeholder-ready insight.
 
-See [ACHIEVEMENTS.md](ACHIEVEMENTS.md) for a resume-ready pull of quantified results across all projects.
+See [ACHIEVEMENTS.md](ACHIEVEMENTS.md) for quantified results and highlights from across all projects, grouped by theme.
 
 ---
 
@@ -33,7 +33,7 @@ These three projects are most representative of observability, service analysis,
 | [AI Agent & MCP Workflow Enablement](projects/08-ai-agent-mcp-workflow-enablement.md) | Cline, Codex, MCP configuration, cross-agent coordination, Jira/Confluence integration | |
 | [Personal Finance Intelligence Platform](projects/09-personal-finance-intelligence-platform.md) | Python ETL, Power BI, DAX, idempotent pipeline, PyInstaller, anomaly detection | ~$300/yr unused subscription surfaced via recurring charge detection and cancelled May 2026 |
 | [Project STC: Engineering Continuity Framework](projects/10-project-stc-engineering-continuity-framework.md) | AI workflow architecture, knowledge management, framework design | Matured from concept to reusable starters, working examples, and validation tooling; applied across active team AI workflows |
-| [Structured Cloud & SRE Upskilling](projects/11-structured-cloud-sre-upskilling.md) | AWS, Terraform, Kubernetes, Observability (active learning — honestly framed) | |
+| [Structured Cloud & SRE Upskilling](projects/11-structured-cloud-sre-upskilling.md) | AWS, Terraform, Kubernetes, Observability (active learning) | |
 | [Librarium: Prompt & Skill Library for AI-Assisted Engineering](projects/12-librarium-prompt-skill-library.md) | Prompt engineering, AI workflow governance, knowledge management, Git-based contribution standards | |
 | [Vertica Read-Only MCP Server](projects/13-vertica-mcp-server.md) | MCP server design, secure data access, Python packaging, automated testing | Leadership-requested tool giving managers self-service Codex access to Vertica; grown from 15 to 36 passing tests |
 | [Legacy Product Modernization: Oracle CDB/PDB & GoldenGate 19 Compatibility](projects/14-goldengate-cdb-pdb-modernization.md) | Oracle DB architecture, Oracle GoldenGate, legacy system reverse engineering, cross-platform (Linux/AIX) | Solo modernization supporting a full 2×2×2×2×2×2 client compatibility matrix with zero legacy breakage |
@@ -52,4 +52,4 @@ These three projects are most representative of observability, service analysis,
 
 ---
 
-*All project write-ups are framed at a level that does not disclose client names, internal system credentials, or proprietary configurations.*
+*Project write-ups omit client names, internal system credentials, and proprietary configurations.*

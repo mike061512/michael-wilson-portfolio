@@ -10,7 +10,7 @@
 
 Ongoing structured self-development effort focused on building practical cloud and SRE capability — not passive training consumption, but disciplined hands-on learning tied to operational competence.
 
-This is documented here as a portfolio entry because it reflects the same engineering discipline as the project work: structured approach, honest framing, and focus on depth over breadth.
+It is included here because it reflects the same engineering discipline as the project work: a structured approach and a focus on depth over breadth.
 
 ---
 
@@ -46,13 +46,13 @@ Learning is distributed across a limited weekly time budget rather than concentr
 
 ## Why This Matters
 
-Production depth in AWS, Terraform, and Kubernetes is not in my current daily stack — that is an honest statement. These are active learning areas, not claimed production credentials.
+AWS, Terraform, and Kubernetes are not part of my current daily stack. These are active learning areas rather than production experience.
 
 What this work represents is:
 
-- A structured, sustained investment in the direction my career is moving
+- A structured, sustained investment in cloud and platform reliability engineering
 - Operational judgment about failure modes and debugging that transfers from existing deep experience
-- A track record of building durable tools (not one-off scripts) that suggests the upskilling will produce the same quality of output when applied to these platforms
+- The same practice applied elsewhere in this portfolio: building durable tools rather than one-off scripts
 
 ---
 
